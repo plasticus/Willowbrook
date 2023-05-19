@@ -63,8 +63,8 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 62,bicycle tire,medium,general,Civilian,0,Trivial,y,y,y,y,y
 63,large inner tube,small,general,Civilian,0,Uncommon,y,y,y,y,y
 64,intact book,small,general,Civilian,0,Trivial,y,y,y,y,y
-65,pair of muddy boots,small,general,Civilian,0,Common,y,y,n,n,n
-66,pair of unused boots,small,general,Civilian,0,Common,n,y,y,y,n
+65,pair of muddy boots,small,general,Civilian,3,Common,y,y,n,n,n
+66,pair of unused boots,small,general,Civilian,3,Common,n,y,y,y,n
 67,license plate,small,general,Civilian,0,Trivial,y,y,y,y,y
 68,ornamental glass bead,incidental,general,Civilian,0,Trivial,n,y,y,y,y
 69,old coin,incidental,general,Civilian,0,Trivial,y,y,y,y,y
@@ -295,7 +295,7 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 294,wood chisel,small,general,Civilian,0,Uncommon,n,n,n,y,n
 295,flashlight,small,general,Civilian,0,Common,n,n,n,y,n
 296,pry bar,small,general,Civilian,0,Common,n,n,n,y,n
-297,box cutter,small,general,Civilian,0,Common,n,n,n,y,n
+297,box cutter,small,general,Civilian,1,Common,n,n,n,y,n
 298,funnel,small,general,Civilian,0,Common,n,n,n,y,n
 299,25ft garden hose,large,general,Civilian,0,Common,n,n,n,y,n
 300,empty 5 gallon gas can,small,general,Civilian,0,Common,n,n,n,y,n
@@ -311,8 +311,8 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 310,robertson screwdriver,small,general,Civilian,0,Uncommon,n,n,n,y,n
 311,block plane,small,general,Civilian,0,Uncommon,n,n,n,y,n
 312,ball-peen hammer,small,general,Civilian,0,Common,n,n,n,y,n
-313,rubber mallet,small,general,Civilian,0,Common,n,n,n,y,n
-314,sledge hammer,large,general,Civilian,0,Common,n,n,n,y,n
+313,rubber mallet,small,general,Civilian,1,Common,n,n,n,y,n
+314,sledge hammer,large,general,Civilian,3,Common,n,n,n,y,n
 315,6in coping saw,small,general,Civilian,0,Superior,n,n,n,y,n
 316,12in hacksaw,small,general,Civilian,0,Common,n,n,n,y,n
 317,24in bow saw,medium,general,Civilian,0,Uncommon,n,n,n,y,n
@@ -320,7 +320,7 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 319,7in circular saw blade,small,general,Civilian,0,Common,n,n,n,y,n
 320,10in circular saw blade,small,general,Civilian,0,Uncommon,n,n,n,y,n
 321,12in circular saw blade,small,general,Civilian,0,Superior,n,n,n,y,n
-322,hatchet,small,general,Civilian,0,Uncommon,y,n,n,y,n
+322,hatchet,small,general,Civilian,2,Uncommon,y,n,n,y,n
 323,malfunctioning geiger counter,small,general,Restricted,0,Uncommon,n,n,n,y,n
 324,geiger counter,small,general,Restricted,0,Rare,n,n,n,y,n
 325,oz industrial strength cleaner,incidental,general,Restricted,0,Common,n,n,n,y,n
@@ -433,7 +433,7 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 432,portrait oil painting,large,general,Restricted,0,Uncommon,n,y,y,n,y
 433,silver-plated serving platter,large,general,Restricted,0,Common,n,y,n,n,n
 434,pair of designer shoes,small,general,Restricted,0,Common,n,y,n,n,n
-435,pair of expensive boots,medium,general,Restricted,0,Common,n,y,n,n,n
+435,pair of designer boots,medium,general,Restricted,1,Common,n,y,n,n,n
 436,lb of designer clothing,small,general,Restricted,0,Common,n,y,n,n,n
 437,lb of expensive clothing,small,general,Restricted,0,Common,n,y,n,n,n
 438,sqft silk fabric,small,general,Restricted,0,Common,n,y,n,n,n
@@ -464,28 +464,28 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 463,oz oat seed,incidental,general,Restricted,0,Uncommon,y,n,n,n,n
 464,oz soybean seed,incidental,general,Restricted,0,Uncommon,y,n,n,n,n
 465,oz potato seed,incidental,general,Restricted,0,Common,y,n,n,n,n
-466,sickle,medium,general,Restricted,0,Common,y,n,n,n,n
-467,trowel,small,general,Restricted,0,Common,y,n,n,n,n
-468,shovel,large,general,Civilian,0,Common,y,n,n,y,n
-469,shears,medium,general,Restricted,0,Common,y,n,n,n,n
-470,scythe,large,general,Restricted,0,Common,y,n,n,n,n
+466,sickle,medium,general,Restricted,3,Common,y,n,n,n,n
+467,trowel,small,general,Restricted,1,Common,y,n,n,n,n
+468,shovel,large,general,Civilian,2,Common,y,n,n,y,n
+469,shears,medium,general,Restricted,1,Common,y,n,n,n,n
+470,scythe,large,general,Restricted,3,Common,y,n,n,n,n
 471,pail,medium,general,Civilian,0,Common,y,n,n,y,n
 472,metal bucket,medium,general,Civilian,0,Common,y,y,n,y,n
-473,pickaxe,large,general,Restricted,0,Common,y,n,n,n,n
-474,pitchfork,large,general,Restricted,0,Common,y,n,n,n,n
+473,pickaxe,large,general,Restricted,3,Common,y,n,n,n,n
+474,pitchfork,large,general,Restricted,3,Common,y,n,n,n,n
 475,15in car tire,large,general,Civilian,0,Common,y,n,y,y,n
 476,17in car tire,large,general,Civilian,0,Common,y,n,y,y,n
 477,1g ice cream bucket,small,general,Civilian,0,Uncommon,y,n,y,y,n
 478,2.5g plastic bucket,medium,general,Civilian,0,Rare,y,n,y,y,n
 479,5g plastic bucket,large,general,Civilian,0,Superior,y,n,y,y,n
-480,baseball cap,small,general,Civilian,0,Trivial,y,y,y,n,n
-481,fedora,small,general,Civilian,0,Uncommon,n,y,y,n,n
-482,panama hat,small,general,Civilian,0,Rare,n,y,y,n,n
-483,beret,small,general,Civilian,0,Superior,n,y,y,n,n
-484,pork pie hat,small,general,Civilian,0,Superior,n,y,y,n,n
-485,beanie,small,general,Civilian,0,Trivial,y,y,y,n,n
-486,cowboy hat,small,general,Civilian,0,Uncommon,y,y,y,n,n
-487,flat cap,small,general,Civilian,0,Uncommon,y,y,y,n,n
+480,baseball cap,small,general,Civilian,1,Trivial,y,y,y,n,n
+481,fedora,small,general,Civilian,1,Uncommon,n,y,y,n,n
+482,panama hat,small,general,Civilian,1,Rare,n,y,y,n,n
+483,beret,small,general,Civilian,1,Superior,n,y,y,n,n
+484,pork pie hat,small,general,Civilian,1,Superior,n,y,y,n,n
+485,beanie,small,general,Civilian,2,Trivial,y,y,y,n,n
+486,cowboy hat,small,general,Civilian,2,Uncommon,y,y,y,n,n
+487,flat cap,small,general,Civilian,1,Uncommon,y,y,y,n,n
 488,oz of white paint,incidental,general,Civilian,0,Common,y,y,y,y,y
 489,oz of red paint,incidental,general,Civilian,0,Uncommon,y,y,y,y,y
 490,oz of blue paint,incidental,general,Civilian,0,Uncommon,y,y,y,y,y
@@ -505,9 +505,9 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 504,hiking shoes,small,general,Restricted,0,Common,n,n,y,n,n
 505,travel water filter,small,general,Restricted,0,Common,n,n,y,n,n
 506,snow shoes,medium,general,Restricted,0,Rare,n,n,y,n,n
-507,pair of sport socks,small,general,Restricted,0,Trivial,n,n,y,n,n
-508,pair of heavy socks,small,general,Restricted,0,Trivial,n,n,y,n,n
-509,winter sport jacket,medium,general,Restricted,0,Uncommon,n,n,y,n,n
+507,pair of sport socks,small,general,Restricted,1,Trivial,n,n,y,n,n
+508,pair of heavy socks,small,general,Restricted,1,Trivial,n,n,y,n,n
+509,winter sport jacket,medium,general,Restricted,3,Uncommon,n,n,y,n,n
 510,insulated pants,medium,general,Restricted,0,Uncommon,n,n,y,n,n
 511,insulated hoodie,medium,general,Restricted,0,Rare,n,n,y,n,n
 512,carabiner,incidental,general,Restricted,0,Trivial,n,n,y,n,n
@@ -572,14 +572,14 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 571,can of sliced pears,small,general,Civilian,0,Common,n,y,y,y,n
 572,can of fruit coctail,small,general,Civilian,0,Common,n,y,y,y,n
 573,can of fried apples,small,general,Civilian,0,Common,n,y,y,y,n
-574,leather jacket,medium,general,Civilian,1,Common,y,y,y,n,n
+574,leather jacket,medium,general,Civilian,2,Common,y,y,y,n,n
 575,dress shoe,small,general,Civilian,0,Common,y,y,y,n,n
 576,leather belt,small,general,Civilian,0,Common,y,y,y,n,n
 577,leather bracelet,small,general,Civilian,0,Common,y,y,y,n,n
 578,cowboy boot,small,general,Civilian,0,Common,y,y,y,n,n
-579,pair of cowboy boots,small,general,Civilian,1,Common,y,y,y,n,n
-580,leather dress boots,small,general,Civilian,0,Common,y,y,y,n,n
-581,leather riding gloves,small,general,Civilian,0,Common,y,y,y,n,n
+579,pair of cowboy boots,small,general,Civilian,3,Common,y,y,y,n,n
+580,leather dress boots,small,general,Civilian,3,Common,y,y,y,n,n
+581,leather riding gloves,small,general,Civilian,3,Common,y,y,y,n,n
 582,sandals,small,general,Civilian,0,Common,y,y,y,n,n
 583,32oz weed killer,small,general,Civilian,0,Common,y,y,n,n,n
 584,32oz weed and grass killer,small,general,Civilian,0,Common,y,y,n,n,n
@@ -600,15 +600,15 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 599,Baseball bat,medium,general,Civilian,3,Common,y,y,y,y,y
 600,Golf Club,medium,general,Civilian,3,Common,y,y,y,y,y
 601,Fireman's Axe,medium,general,Civilian,3,Common,y,y,y,y,y
-602,Knit Socks,medium,general,Civilian,0,Common,y,y,y,y,y
-603,Knit Gloves,medium,general,Civilian,0,Common,y,y,y,y,y
-604,Ear Muffs,medium,general,Civilian,0,Common,y,y,y,y,y
+602,Knit Socks,medium,general,Civilian,1,Common,y,y,y,y,y
+603,Knit Gloves,medium,general,Civilian,1,Common,y,y,y,y,y
+604,Ear Muffs,medium,general,Civilian,1,Common,y,y,y,y,y
 605,Light Jacket,medium,general,Civilian,1,Common,y,y,y,y,y
 606,Baseball cap,medium,general,Civilian,1,Common,y,y,y,y,y
 607,gardening gloves,medium,general,Civilian,1,Common,y,y,y,y,y
-608,Winter Coat,medium,general,Civilian,2,Common,y,y,y,y,y
+608,Winter Coat,medium,general,Civilian,3,Common,y,y,y,y,y
 609,Stocking Cap,medium,general,Civilian,2,Common,y,y,y,y,y
-610,Snow Pants,medium,general,Civilian,2,Common,y,y,y,y,y
+610,Snow Pants,medium,general,Civilian,3,Common,y,y,y,y,y
 611,Catcher's Mask,medium,general,Civilian,3,Common,y,y,y,y,y
 612,Duster,medium,general,Civilian,3,Common,y,y,y,y,y
 613,Bowie Knife,small,general,Civilian,1,Common,y,y,y,y,y
@@ -726,54 +726,54 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 725,Oven Mitts,small,general,Civilian,3,Common,y,y,y,y,y
 726,Driving Gloves,small,general,Civilian,1,Common,y,y,y,y,y
 727,Cycling Gloves,small,general,Civilian,1,Common,y,y,y,y,y
-728,Roll of duct tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-729,Roll of duct tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-730,Roll of duct tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-731,Handful of nails,incidental,general,Civilian,1,Common,y,y,y,y,y
-732,Handful of nails,incidental,general,Civilian,1,Common,y,y,y,y,y
-733,Handful of nails,incidental,general,Civilian,1,Common,y,y,y,y,y
-734,Handful of screws,incidental,general,Civilian,1,Common,y,y,y,y,y
-735,Handful of screws,incidental,general,Civilian,1,Common,y,y,y,y,y
-736,Handful of screws,incidental,general,Civilian,1,Common,y,y,y,y,y
-737,Bottle of super glue,incidental,general,Civilian,1,Common,y,y,y,y,y
-738,Bottle of super glue,incidental,general,Civilian,1,Common,y,y,y,y,y
-739,Bottle of super glue,incidental,general,Civilian,1,Common,y,y,y,y,y
-740,Roll of twine,incidental,general,Civilian,1,Common,y,y,y,y,y
-741,Roll of twine,incidental,general,Civilian,1,Common,y,y,y,y,y
-742,Roll of twine,incidental,general,Civilian,1,Common,y,y,y,y,y
-743,Sandwichbag full of bottlecaps,incidental,general,Civilian,1,Common,y,y,y,y,y
-744,Sandwichbag full of bottlecaps,incidental,general,Civilian,1,Common,y,y,y,y,y
-745,Sandwichbag full of bottlecaps,incidental,general,Civilian,1,Common,y,y,y,y,y
-746,Small handful of broken glass,incidental,general,Civilian,1,Common,y,y,y,y,y
-747,Small handful of broken glass,incidental,general,Civilian,1,Common,y,y,y,y,y
-748,Small handful of broken glass,incidental,general,Civilian,1,Common,y,y,y,y,y
-749,Tube of black craft paint,incidental,general,Civilian,1,Common,y,y,y,y,y
-750,Tube of gray craft paint,incidental,general,Civilian,1,Common,y,y,y,y,y
-751,Tube of black craft paint,incidental,general,Civilian,1,Common,y,y,y,y,y
-752,Tube of gray craft paint,incidental,general,Civilian,1,Common,y,y,y,y,y
-753,Tube of black craft paint,incidental,general,Civilian,1,Common,y,y,y,y,y
-754,Tube of gray craft paint,incidental,general,Civilian,1,Common,y,y,y,y,y
-755,nearly-worn out whetstone,incidental,general,Civilian,1,Common,y,y,y,y,y
-756,nearly-worn out whetstone,incidental,general,Civilian,1,Common,y,y,y,y,y
-757,nearly-worn out whetstone,incidental,general,Civilian,1,Common,y,y,y,y,y
-758,Rusted honing steel,small,general,Civilian,1,Common,y,y,y,y,y
-759,Rusted honing steel,small,general,Civilian,1,Common,y,y,y,y,y
-760,Rusted honing steel,small,general,Civilian,1,Common,y,y,y,y,y
-761,Package of misc sandpaper,incidental,general,Civilian,1,Common,y,y,y,y,y
-762,Package of misc sandpaper,incidental,general,Civilian,1,Common,y,y,y,y,y
-763,Package of misc sandpaper,incidental,general,Civilian,1,Common,y,y,y,y,y
-764,Roll of black duct tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-765,Roll of black duct tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-766,Roll of black duct tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-767,Package of grip tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-768,Package of grip tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-769,Package of grip tape,incidental,general,Civilian,1,Common,y,y,y,y,y
-770,Short length of rope,incidental,general,Civilian,1,Common,y,y,y,y,y
-771,Short length of rope,incidental,general,Civilian,1,Common,y,y,y,y,y
-772,Short length of rope,incidental,general,Civilian,1,Common,y,y,y,y,y
-773,Small ball of twine,incidental,general,Civilian,1,Common,y,y,y,y,y
-774,Small ball of twine,incidental,general,Civilian,1,Common,y,y,y,y,y
-775,Small ball of twine,incidental,general,Civilian,1,Common,y,y,y,y,y
+728,Roll of duct tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+729,Roll of duct tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+730,Roll of duct tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+731,Handful of nails,incidental,general,Civilian,0,Common,y,y,y,y,y
+732,Handful of nails,incidental,general,Civilian,0,Common,y,y,y,y,y
+733,Handful of nails,incidental,general,Civilian,0,Common,y,y,y,y,y
+734,Handful of screws,incidental,general,Civilian,0,Common,y,y,y,y,y
+735,Handful of screws,incidental,general,Civilian,0,Common,y,y,y,y,y
+736,Handful of screws,incidental,general,Civilian,0,Common,y,y,y,y,y
+737,Bottle of super glue,incidental,general,Civilian,0,Common,y,y,y,y,y
+738,Bottle of super glue,incidental,general,Civilian,0,Common,y,y,y,y,y
+739,Bottle of super glue,incidental,general,Civilian,0,Common,y,y,y,y,y
+740,Roll of twine,incidental,general,Civilian,0,Common,y,y,y,y,y
+741,Roll of twine,incidental,general,Civilian,0,Common,y,y,y,y,y
+742,Roll of twine,incidental,general,Civilian,0,Common,y,y,y,y,y
+743,Sandwichbag full of bottlecaps,incidental,general,Civilian,0,Common,y,y,y,y,y
+744,Sandwichbag full of bottlecaps,incidental,general,Civilian,0,Common,y,y,y,y,y
+745,Sandwichbag full of bottlecaps,incidental,general,Civilian,0,Common,y,y,y,y,y
+746,Small handful of broken glass,incidental,general,Civilian,0,Common,y,y,y,y,y
+747,Small handful of broken glass,incidental,general,Civilian,0,Common,y,y,y,y,y
+748,Small handful of broken glass,incidental,general,Civilian,0,Common,y,y,y,y,y
+749,Tube of black craft paint,incidental,general,Civilian,0,Common,y,y,y,y,y
+750,Tube of gray craft paint,incidental,general,Civilian,0,Common,y,y,y,y,y
+751,Tube of black craft paint,incidental,general,Civilian,0,Common,y,y,y,y,y
+752,Tube of gray craft paint,incidental,general,Civilian,0,Common,y,y,y,y,y
+753,Tube of black craft paint,incidental,general,Civilian,0,Common,y,y,y,y,y
+754,Tube of gray craft paint,incidental,general,Civilian,0,Common,y,y,y,y,y
+755,nearly-worn out whetstone,incidental,general,Civilian,0,Common,y,y,y,y,y
+756,nearly-worn out whetstone,incidental,general,Civilian,0,Common,y,y,y,y,y
+757,nearly-worn out whetstone,incidental,general,Civilian,0,Common,y,y,y,y,y
+758,Rusted honing steel,small,general,Civilian,0,Common,y,y,y,y,y
+759,Rusted honing steel,small,general,Civilian,0,Common,y,y,y,y,y
+760,Rusted honing steel,small,general,Civilian,0,Common,y,y,y,y,y
+761,Package of misc sandpaper,incidental,general,Civilian,0,Common,y,y,y,y,y
+762,Package of misc sandpaper,incidental,general,Civilian,0,Common,y,y,y,y,y
+763,Package of misc sandpaper,incidental,general,Civilian,0,Common,y,y,y,y,y
+764,Roll of black duct tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+765,Roll of black duct tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+766,Roll of black duct tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+767,Package of grip tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+768,Package of grip tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+769,Package of grip tape,incidental,general,Civilian,0,Common,y,y,y,y,y
+770,Short length of rope,incidental,general,Civilian,0,Common,y,y,y,y,y
+771,Short length of rope,incidental,general,Civilian,0,Common,y,y,y,y,y
+772,Short length of rope,incidental,general,Civilian,0,Common,y,y,y,y,y
+773,Small ball of twine,incidental,general,Civilian,0,Common,y,y,y,y,y
+774,Small ball of twine,incidental,general,Civilian,0,Common,y,y,y,y,y
+775,Small ball of twine,incidental,general,Civilian,0,Common,y,y,y,y,y
 776,plastic sparkwheel lighter,incidental,general,Civilian,0,Common,y,y,y,y,y
 777,plastic sparkwheel lighter,incidental,general,Civilian,0,Common,y,y,y,y,y
 778,plastic sparkwheel lighter,incidental,general,Civilian,0,Common,y,y,y,y,y
@@ -793,7 +793,7 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 792,goalie stick,medium,general,Civilian,2,Common,y,y,y,y,y
 793,a garbage can lid,medium,general,Civilian,0,Common,y,y,y,y,y
 794,fireworks,incidental,general,Civilian,0,Common,y,y,y,y,y
-795,Hypercolor t-shirt,small,general,Civilian,0,Common,y,y,y,y,y
+795,Hypercolor t-shirt,small,general,Civilian,1,Common,y,y,y,y,y
 796,lawn dart,small,general,Civilian,0,Common,y,y,y,y,y
 797,roll of toilet paper,small,general,Civilian,0,Common,y,y,y,y,y
 798,Jenga,small,general,Civilian,0,Common,y,y,y,y,y
@@ -819,3 +819,89 @@ id,Item,Size,Type,Restriction,Level,Rarity,locAg,locRes,locCom,locInd,locTech
 818,left roller blade,small,general,Civilian,0,Common,y,y,y,y,y
 819,right roller blade,small,general,Civilian,0,Common,y,y,y,y,y
 820,pair of roller blades,medium,general,Civilian,0,Common,y,y,y,y,y
+821,Heavy Jacket,medium,general,Civilian,2,Common,y,y,y,y,y
+822,John Deere Windbreaker,medium,general,Civilian,1,Common,y,y,y,y,y
+823,New Holland Windbreaker,medium,general,Civilian,1,Common,y,y,y,y,y
+824,Case IH Windbreaker,medium,general,Civilian,1,Common,y,y,y,y,y
+825,John Deere Cap,medium,general,Civilian,1,Common,y,y,y,y,y
+826,New Holland Cap,medium,general,Civilian,1,Common,y,y,y,y,y
+827,Case IH Cap,medium,general,Civilian,1,Common,y,y,y,y,y
+828,John Deere Beanie,medium,general,Civilian,2,Common,y,y,y,y,y
+829,New Holland Beanie,medium,general,Civilian,2,Common,y,y,y,y,y
+830,Case IH Beanie,medium,general,Civilian,2,Common,y,y,y,y,y
+831,John Deere Work Gloves,medium,general,Civilian,2,Common,y,y,y,y,y
+832,New Holland Work Gloves,medium,general,Civilian,2,Common,y,y,y,y,y
+833,Case IH Work Gloves,medium,general,Civilian,2,Common,y,y,y,y,y
+834,Detroit Tigers baseball cap,medium,general,Civilian,1,Common,y,y,y,y,y
+835,Detroit Lions baseball cap,medium,general,Civilian,1,Common,y,y,y,y,y
+836,Detroit Pistons baseball cap,medium,general,Civilian,1,Common,y,y,y,y,y
+837,Detroit Red Wings baseball cap,medium,general,Civilian,1,Common,y,y,y,y,y
+838,University of Michigan ball cap,medium,general,Civilian,1,Common,y,y,y,y,y
+839,Michigan State ball cap,medium,general,Civilian,1,Common,y,y,y,y,y
+840,University of Michigan sweater,medium,general,Civilian,2,Common,y,y,y,y,y
+841,Michigan State Sweater,medium,general,Civilian,2,Common,y,y,y,y,y
+842,Wayne State sweater,medium,general,Civilian,2,Common,y,y,y,y,y
+843,Detroit Lions sweatshirt,medium,general,Civilian,2,Common,y,y,y,y,y
+844,Detroit Pistons sweatshirt,medium,general,Civilian,2,Common,y,y,y,y,y
+845,Detroit Tigers sweatshirt,medium,general,Civilian,2,Common,y,y,y,y,y
+846,Detroit Red Wings sweatshirt,medium,general,Civilian,2,Common,y,y,y,y,y
+847,University of Michigan sweatshirt,medium,general,Civilian,2,Common,y,y,y,y,y
+848,Michigan State sweatshirt,medium,general,Civilian,2,Common,y,y,y,y,y
+849,Grand Rapids Griffins ball cap,medium,general,Civilian,1,Common,y,y,y,y,y
+850,Grand Rapids Griffins hockey jersey,medium,general,Civilian,2,Common,y,y,y,y,y
+851,Grand Rapids Griffins sweater,medium,general,Civilian,2,Common,y,y,y,y,y
+852,Detroit Red Wings hockey jersey,medium,general,Civilian,2,Common,y,y,y,y,y
+853,Wayne State beanie,medium,general,Civilian,2,Common,y,y,y,y,y
+854,Western Michigan U beanie,medium,general,Civilian,2,Common,y,y,y,y,y
+855,Eastern Michigan U beanie,medium,general,Civilian,2,Common,y,y,y,y,y
+856,Wayne State sweatshirt,medium,general,Civilian,2,Common,y,y,y,y,y
+857,Western Michigan U sweatshirt,medium,general,Civilian,2,Common,y,y,y,y,y
+858,Eastern Michigan U sweaterhirt,medium,general,Civilian,2,Common,y,y,y,y,y
+859,Box of Barilla penne,small,general,Civilian,4,Common,y,y,y,y,y
+860,Box of Barilla rotini,small,general,Civilian,4,Common,y,y,y,y,y
+861,Box of Barilla spaghetti,small,general,Civilian,4,Common,y,y,y,y,y
+862,Box of Barilla fettucine,small,general,Civilian,4,Common,y,y,y,y,y
+863,Box of Barilla linguini,small,general,Civilian,4,Common,y,y,y,y,y
+864,Bag of dry black beans,small,general,Civilian,4,Common,y,y,y,y,y
+865,Bag of dry kidney beans,small,general,Civilian,4,Common,y,y,y,y,y
+866,Bag of dry lentils,small,general,Civilian,4,Common,y,y,y,y,y
+867,Bag of dry navy beans,small,general,Civilian,4,Common,y,y,y,y,y
+868,Bag of dry chick peas,small,general,Civilian,4,Common,y,y,y,y,y
+869,Instant oatmeal packets - apple cinnamon,small,general,Civilian,2,Common,y,y,y,y,y
+870,Instant oatmeal packets - maple & brown sugar,small,general,Civilian,2,Common,y,y,y,y,y
+871,Instant oatmeal packets - strawberries & cream,small,general,Civilian,2,Common,y,y,y,y,y
+872,Instant oatmeal packets - bananas & cream,small,general,Civilian,2,Common,y,y,y,y,y
+873,Instant oatmeal packets - peaches & cream,small,general,Civilian,2,Common,y,y,y,y,y
+874,Box of Pop Tarts - Blueberry,small,general,Civilian,4,Common,y,y,y,y,y
+875,Box of Pop Tarts - Brown Sugar Cinnamon,small,general,Civilian,4,Common,y,y,y,y,y
+876,Box of Pop Tarts - Cherry,small,general,Civilian,4,Common,y,y,y,y,y
+877,Box of Pop Tarts - Stawberry,small,general,Civilian,4,Common,y,y,y,y,y
+878,Box of Pop Tarts - S'Mores,small,general,Civilian,4,Common,y,y,y,y,y
+879,Package of ramen - Chicken,small,general,Civilian,1,Common,y,y,y,y,y
+880,Package of ramen - Beef,small,general,Civilian,1,Common,y,y,y,y,y
+881,Package of ramen - Shrimp,small,general,Civilian,1,Common,y,y,y,y,y
+882,Package of ramen - Chili,small,general,Civilian,1,Common,y,y,y,y,y
+883,Small jar of peanut butter,small,general,Civilian,2,Common,y,y,y,y,y
+884,Small jar of jam - grape,small,general,Civilian,2,Common,y,y,y,y,y
+885,Small jar of jam - strawberry,small,general,Civilian,2,Common,y,y,y,y,y
+886,Jar of Pasta sauce,small,general,Civilian,2,Common,y,y,y,y,y
+887,Box of instant mashed potatoes,small,general,Civilian,4,Common,y,y,y,y,y
+888,Packet of instant mashed potatoes,small,general,Civilian,2,Common,y,y,y,y,y
+889,Box of Frosted Flakes,small,general,Civilian,4,Common,y,y,y,y,y
+890,Box of Lucky Charms,small,general,Civilian,4,Common,y,y,y,y,y
+891,Box of Fruity Pebbles,small,general,Civilian,4,Common,y,y,y,y,y
+892,Box of Cocoa Puffs,small,general,Civilian,4,Common,y,y,y,y,y
+893,Box of Bill & Ted's Excellent Cereal,small,general,Civilian,4,Common,y,y,y,y,y
+894,Box of Peanut Butter Captain Crunch,small,general,Civilian,4,Common,y,y,y,y,y
+895,Box of Oreo O's,small,general,Civilian,4,Common,y,y,y,y,y
+896,Granola bar,small,general,Civilian,1,Common,y,y,y,y,y
+897,Package of dried fruit,small,general,Civilian,1,Common,y,y,y,y,y
+898,Package of trail mix,small,general,Civilian,1,Common,y,y,y,y,y
+899,Box of Saltines,small,general,Civilian,2,Common,y,y,y,y,y
+900,Small jar of instant coffee,small,general,Civilian,4,Common,y,y,y,y,y
+901,Small jar of Tang mix,small,general,Civilian,4,Common,y,y,y,y,y
+902,Can of condensed tomato soup,small,general,Civilian,4,Common,y,y,y,y,y
+903,Can of condensed chicken noodle soup,small,general,Civilian,4,Common,y,y,y,y,y
+904,Can of condensed beef noodle soup,small,general,Civilian,4,Common,y,y,y,y,y
+905,Can of condensed cream of mushroom soup,small,general,Civilian,4,Common,y,y,y,y,y
+906,Can of condensed french onion soup,small,general,Civilian,4,Common,y,y,y,y,y
